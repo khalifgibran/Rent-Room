@@ -1,0 +1,61 @@
+body,html {
+    height: 100%;
+    width: 100%;
+}
+
+.navbar {
+	background-color: #77B868;
+}
+
+nav a.navbar-brand {
+	color: white;
+}
+
+nav .logo {
+	height: 2rem;
+	width: 2rem;
+	background-size: cover;
+	background-image: url("../../icons/icon-ui/Navbrand.svg");
+}
+
+nav .nav-content {
+	position: relative;
+	top: 5px;
+}
+
+nav .nav-content .button-logout {
+	margin-bottom:10px;
+	margin-right: 50px;
+    height: 1rem;
+    width: 1rem;
+    background-size: cover;
+    background-image: url("../../icons/logout.svg");
+}
+
+.square {
+    border: 1px solid black;
+    height: 400px;
+    width: 600px;
+    background-color: white;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.square .fill_square {
+    margin-top: 50px;
+}
+
+.square .fill_square form .form-control {
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 480px !important;
+}
+
+.square .fill_square form button {
+    position: relative;
+    bottom: 38px;
+    right: 30px;
+    float: right;
+    height: 40px;
+}
+

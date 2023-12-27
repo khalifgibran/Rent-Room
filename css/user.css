@@ -1,0 +1,61 @@
+body,html {
+	height: 100%;
+	width: 100%;
+}
+
+nav a.navbar-brand {
+	color: white;
+}
+
+nav .nav-content {
+	position: relative;
+	top: 5px;
+}
+
+nav .nav-content p {
+	margin-left: -170px;
+	color: white;
+	float: left;
+}
+
+nav .nav-content .button-logout {
+	margin-top: 4px;
+	margin-right: 50px;
+    height: 1rem;
+    width: 1rem;
+    background-size: cover;
+    background-image: url("../icons/logout.svg");
+}
+
+h1,h3 {
+	margin-top: 20px;
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+div.container .row .male , div.container .row .female {
+	margin-top: 14px;
+	height: 20rem;
+	width: 20rem;
+	border: 5px solid #5cb85c;
+}
+
+.male {
+	height: 8rem;
+    width: 8rem;
+    background-size: cover;
+	background-image: url("../icons/boy.svg");
+	float: right;
+}
+
+.female {
+	height: 8rem;
+    width: 8rem;
+    background-size: cover;
+	background-image: url("../icons/female.svg");
+	float: right;
+	float: left;
+}

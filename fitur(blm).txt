@@ -1,0 +1,4 @@
+- notifikasi
+- mentotalkan pendapatan perbulan dan pertahun
+- pembooking di berikan uang jaminan seharga 2 juta
+- membuat pembayaran online setelah mengisi form book ketika user ingin membayar online juga bisa di bayar di webnya

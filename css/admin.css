@@ -1,0 +1,169 @@
+body,html {
+    height: 100%;
+    width: 100%;
+}
+
+nav form {
+    margin-left: 55rem;
+}
+
+nav .logout {
+    margin-right: 50px;
+    height: 1rem;
+    width: 1rem;
+    background-size: cover;
+    background-image: url("../icons/logout.svg");
+}
+
+.side-bar {
+    float: left;
+    height: 200vh;
+    width: 10rem;
+    background-color: #262626;
+}
+
+.side-bar .header {
+    position: relative;
+    bottom: 20px;
+    padding-left: 20px;
+}
+
+.side-bar .header h3 {
+    font-size: 20px;
+    color: white;
+    position: relative;
+    left: 10px;
+    top: 2px;
+}
+
+.side-bar .header img {
+    float: left;
+    object-fit: cover;
+    height: 2rem;
+    width: 2rem;;
+}
+
+.side-bar .main ul li {
+    list-style-type: none;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.side-bar .main ul li:hover {
+    color: yellow;
+    cursor: pointer;
+}
+
+.side-bar .main ul .dashboard div {
+    position: relative;
+    top: 2px;
+    right: 8px;
+    float: left;
+    background-image: url("../icons/dashboard.svg");
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+}
+
+.side-bar .main ul li a.link {
+    color: white;
+}
+
+.Page {
+    background-color: #F5F8F7;
+}
+
+.color-display div {
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-block;
+    height: 8rem;
+    width: 15rem;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.yellow {
+    margin-left: 42px !important;
+    background-color: #EFAD4F;
+    position: relative;
+    top: 8px;
+}
+
+.yellow .total-male {
+    background-image: url("../icons/male-user.svg");
+    background-size: cover;
+    height: 4.5rem;
+    width: 4.5rem;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.green {
+    background-color: #5DB85B;
+}
+
+.green .total-female {
+    background-image: url("../icons/female-user.svg");
+    background-size: cover;
+    height: 4rem;
+    width: 4rem;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.blue {
+    background-color: #00C0EF;
+}
+
+.blue .monthly {
+    background-image: url("../icons/calendar.svg");
+    background-size: cover;
+    height: 4rem;
+    width: 4rem;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.red {
+    background-color: #DD4B39;
+}
+
+.red .yearly {
+    background-image: url("../icons/yearly.svg");
+    background-size: cover;
+    height: 4rem;
+    width: 4rem;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.yellow h2, .green h2,.blue h2, .red h2 {
+    color: white;
+    float: right;
+    position: relative;
+    right: 32px;
+    top: 20px;
+}
+
+.red h2, .blue h2 {
+    font-size: 25px !important;
+}
+
+.yellow p, .green p, .blue p, .red p {
+    color: white;
+    font-size: 18px;
+    padding-left: 25px;
+}
+
+.table-list {
+    margin-top: 80px;
+    margin-left: 170px;
+}
+
+.table-list h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+

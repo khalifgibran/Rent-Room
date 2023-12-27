@@ -1,0 +1,130 @@
+body,html {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #EFF3F7;
+}
+
+div .container-fluid {
+    padding-bottom: 10px;
+}
+
+.alert {
+    width: 84rem;
+    height: 4rem;
+    position: relative;
+    left: 16.2rem;
+    z-index: 2;
+}
+
+.alert .container-fluid a {
+    display: inline-block;
+    color: #292b2c;
+}
+
+.navbar-brand {
+    font-size: 20px;
+    padding-left: 20px;
+    color: white;
+}
+
+.fa-bell {
+    position: absolute;
+    right: 100px;
+}
+
+.fa-sign-out-alt {
+    position: absolute;
+    right: 10px;
+}
+
+.side-bar .side_bar {
+    background-color: #313A46;
+}
+
+.side-bar .nav-link:hover {
+    background-color: grey;
+}
+
+.side-bar {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.side-bar .bg-light {
+    box-shadow: 6px 3px 33px -19px #505050;
+}
+
+#dashboard {
+    margin-top: 50px !important;
+}
+
+.card-text {
+    font-size: 50px;
+}
+
+.fa-male, .fa-female, .fa-table {
+    float: right;
+    font-size: 100px;
+    position: relative;
+    bottom: 70px;
+}
+
+.card {
+    height: 15rem;
+}
+
+.male_room {
+    background-color: #00C0EF;
+}
+
+.female_room {
+    background-color: #00A65A;
+}
+
+.monthly_income {
+    background-color: #F39C12;
+}
+
+.yearly_income {
+    background-color: #DD4B39;
+}
+
+.Chart {
+    display: flex;
+    padding: 10px 10px;
+    margin-right:  40px;
+}
+
+.ChartContainer {
+    padding: 2rem 2rem;
+    background-color: white;
+    width: 40rem;
+    margin: 0px auto;
+    border: 1px solid rgb(201, 201, 201);
+}
+
+.row .table {
+    background-color: white;
+}
+
+.table {
+    margin-top: 10px;
+    width: 80rem;
+}
+
+.table tr td {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.table span {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.pagination {
+    justify-content: center;
+}
